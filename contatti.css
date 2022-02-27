@@ -1,0 +1,131 @@
+body{
+    padding-top:100px;
+}
+
+/*NAVBAR*/
+.navbar {
+    background-color: #090B0C;
+    position:fixed;
+}
+/*END NAVBAR*/
+
+
+/*CONTATTI*/
+.contatti_h3 h3{
+  text-align: left;
+}
+
+.colonna_sx {
+  padding-right: 30px;
+}
+
+.form_padding {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.form_padding .btn-secondary:hover{
+  background-color: #090B0C;
+}
+
+.mappa {
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+
+
+@media only screen and (max-width: 767px){
+  .colonna_sx {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+.colonna_dx {
+  padding-left: 0px;
+}
+
+@media only screen and (max-width: 767px){
+  .colonna_dx {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.testo_contatti p {
+  text-align: left;
+  font-size:22px;
+  line-height: 1.9;
+}
+
+.row-form .col-md-6 {
+  text-align: left;
+}
+
+.link_contatti{
+	color:white;
+	padding-left:0px;
+	padding-right:6px;
+}
+
+.div_form {
+
+    background-color: #A9D9BF;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 767px){
+  .div_form {
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+  }
+
+  .corpo_mobile{
+    margin-bottom: 30px;
+    margin-top: 10px
+  }
+
+  .mappa {
+    margin-bottom: 60px;
+    margin-top: 20px;
+  }
+
+  .div_icon{
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 30px
+  }
+
+  .testo_contatti {
+    text-align: center;
+  }
+
+  .row-form .col-md-6 {
+    text-align: center;
+  }
+}
+
+.form-group label {
+    font-size: 22px;
+}
+
+/*ESPERIMENTI*/
+
+.distanziatore_footer {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .distanziatore_footer {
+    display: block;
+  }
+
+
+}

@@ -1,0 +1,108 @@
+body{
+    padding-top:100px;
+}
+
+/*NAVBAR*/
+.navbar {
+    background-color: #090B0C;
+    position:fixed;
+}
+/*END NAVBAR*/
+
+/*CORPO ***********************************************************************************************/
+.row { 
+	margin-left: 0px; 
+    margin-right: 0px; 
+}
+
+.corpo h1{
+	text-align:center;
+	color:#090B0C;
+	width: 100%;
+	margin-bottom: 0;
+    margin-bottom: 50px;
+}
+
+/*INIZIO DESTRA_SINISTRA*/
+
+.ruolo_dx h3{
+    text-align: right;
+    font-weight: bold;
+}
+
+.ruolo_sx h3{
+    text-align: left;
+    font-weight: bold;
+}
+
+.team_img_dx {
+    height:300px;
+    width:auto;
+    float:right;
+}
+
+.team_img_sx {
+    height:300px;
+    width:auto;
+    float:left;
+}
+
+.testo_team_sx p {
+    text-align:left;
+    line-height: 32px;
+    font-size: 22px;
+}
+
+.titoletto h1 {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.testo_team_dx p {
+    text-align:right;
+    line-height: 32px;
+    font-size: 22px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .team_img_sx {
+        height:100%;
+        width:100%;
+        object-fit: cover;
+        float:left;
+    }  
+    
+    .team_img_dx {
+        height:100%;
+        width:100%;
+        object-fit: cover;
+        float:left;
+    } 
+}
+
+@media only screen and (max-width: 767px) {
+	.testo_team_dx p {
+		text-align: left;
+	}
+
+	.team_img_dx {
+		float: none;
+        width:100%;
+		
+	}
+
+    .team_img_sx {
+		float: none;
+        width:100%;
+	}
+
+    .ruolo_dx h3{
+        text-align: left;
+        
+    }
+    
+}
+
+/*FDESTRA_SINISTRA*/
+
+/*FINE CORPO ***********************************************************************************************/

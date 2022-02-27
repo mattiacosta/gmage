@@ -1,0 +1,49 @@
+body{
+    padding-top:100px;
+}
+
+/*NAVBAR*/
+.navbar {
+    background-color: #090B0C;
+    position:fixed;
+}
+/*END NAVBAR*/
+
+/*CORPO ***********************************************************************************************/
+.testo p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.team_img_dx {
+    height:300px;
+    width:auto;
+    float:right;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.team_img_sx {
+    height:300px;
+    width:auto;
+    float:left;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {	
+	.team_img_dx {
+		float: none;
+        width:100%;
+        height: auto;
+		margin:0;		
+	}
+    .team_img_sx {
+		float: none;
+        width:100%;
+        height: auto;
+		margin:0;
+	}
+}
+/*END CORPO ***********************************************************************************************/

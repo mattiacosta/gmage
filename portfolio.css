@@ -1,0 +1,96 @@
+body{
+    padding-top:100px;
+}
+
+/*NAVBAR*/
+.navbar {
+    background-color: #090B0C;
+    position:fixed;
+}
+/*END NAVBAR*/
+
+/*CORPO ***********************************************************************************************/
+.row { 
+	margin-left: 0px; 
+    margin-right: 0px; 
+}
+
+.corpo h1{
+	text-align:center;
+	color:#090B0C;
+	width: 100%;
+	margin-bottom: 0;
+    margin-bottom: 50px;
+}
+
+/*FILTRI*/
+
+
+.filter-button{
+    font-size: 20px;
+    text-align: center;
+    background-color: #090B0C;
+    color: #ffffff;
+    margin-bottom: 30px;
+    transition: 0.5s ease;
+}
+
+.filter-button:hover {
+    text-align: center;
+    color: #ffffff;
+    background-color: #A9D9BF;
+    transition: 0.5s ease;
+}
+/*END FILTRI*/
+
+
+/*PORTFOLI*/
+.gallery_product {
+    margin-bottom: 30px;
+}
+
+.col-md-3 .card{
+	border-radius:0px;
+	border:0px;
+}
+
+.overlay_text .btn-secondary:hover{
+    background-color: #090B0C;
+    border:0px;
+  }
+
+
+.btn-primary{
+    font-size: 18px;
+    text-align: center;
+    background-color: #090B0C;
+    color: #ffffff;
+    margin-bottom: 30px;
+    transition: 0.5s ease;
+    border:0;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-primary:hover {
+    text-align: center;
+    color: #ffffff;
+    background-color: #A9D9BF;
+    transition: 0.5s ease;
+}
+
+.btn-primary:active {
+    text-align: center;
+    color: #ffffff;
+    background-color: #A9D9BF;
+    transition: 0.5s ease;
+    border:0;
+}
+
+/*END PORTFOLI*/
+/*FDESTRA_SINISTRA*/
+
+/*FINE CORPO ***********************************************************************************************/
+
